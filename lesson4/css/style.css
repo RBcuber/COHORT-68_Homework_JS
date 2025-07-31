@@ -4,6 +4,7 @@ body {
   background: #f5f7fa;
 }
 
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -26,6 +27,7 @@ td {
 th {
   color: #3b4a5a;
   font-weight: 600;
+
 }
 
 td {
