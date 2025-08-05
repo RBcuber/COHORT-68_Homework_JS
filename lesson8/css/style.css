@@ -1,0 +1,72 @@
+header ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+header ul li {
+  margin-right: 40px;
+}
+header ul li:last-child {
+  margin-right: 0px;
+}
+header ul{
+    display: block;
+    text-align: center;
+}
+header {
+  
+  position: fixed;
+  z-index: 1;
+  height: 24px;
+  top: 0;
+  left: 0;
+  background-color: #fad0d0;
+  width: 100%;
+}
+ul li {
+  display: inline-block;
+}
+main{
+  margin-top: 80px;
+}
+.card-list {
+  margin-left: 20px;
+  margin-top: 100px;
+}
+.card {
+  width: 600px;
+  height: 600px;
+}
+
+.card img {
+  padding-top: 16px;
+  display: block;
+  margin: 0 auto;
+}
+h2.card__name,
+p.card__age,
+p.card__sex {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 16px;
+  color: #777;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.card1 {
+  background-color: rgb(227, 247, 229);
+  margin-bottom: 20px;
+}
+.card2 {
+  background-color: rgb(209, 229, 247);
+  position: relative;
+  left: 600px;
+  margin-bottom: 20px;
+}
+.card3 {
+  background-color: rgb(248, 244, 219);
+  position: relative;
+  left: 1200px;
+}
